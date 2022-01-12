@@ -1,8 +1,7 @@
 ---
-title: "Digital Transformation"
-date: 2022-01-09T14:19:15-06:00
-# weight: 1
-# aliases: ["/first"]
+title: "Bias in Old-School Gig Platforms"
+date: 2022-01-11T23:11:32-06:00
+draft: false
 tags: ["first"]
 author: "Craig Fisk"
 # author: ["Me", "You"] # multiple authors
@@ -11,7 +10,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "<Descriptive text goes here>"
+description: "Surprise! The two-sided freelancer marketplaces are really one-sided."
 canonicalURL: "https://priceandposition.com/content/"
 disableHLJS: true # to disable highlightjs
 disableShare: false
@@ -31,4 +30,5 @@ editPost:
     URL: "https://github.com/<path_to_repo>/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
+
 ---

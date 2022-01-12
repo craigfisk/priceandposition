@@ -3,7 +3,7 @@ languageCode: en-us
 title: Price and Position
 draft: false
 theme: "PaperMod"
-paginate: 5
+paginate: 10
 
 # CF20220109 added 2 lines, following https://www.banjocode.com/post/hugo/custom-css/
 # custom_css = ["css/custom.css"]

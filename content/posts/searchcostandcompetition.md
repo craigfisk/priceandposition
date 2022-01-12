@@ -1,8 +1,7 @@
 ---
-title: {{ .Name }}
-date: {{ .Date }}
-# weight: 1
-# aliases: ["/first"]
+title: "Search Cost and Competition"
+date: 2022-01-11T23:10:20-06:00
+draft: false
 tags: ["first"]
 author: "Craig Fisk"
 # author: ["Me", "You"] # multiple authors
@@ -11,7 +10,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "It's a brand new ballgame when it comes to pricing and positioning, net of a digital transformation of a business."
+description: "How Does Digital Marketing Impact Search Cost and Competition in 2022?"
 canonicalURL: "https://priceandposition.com/content/"
 disableHLJS: true # to disable highlightjs
 disableShare: false

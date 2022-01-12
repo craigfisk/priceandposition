@@ -1,8 +1,7 @@
 ---
-title: {{ .Name }}
-date: {{ .Date }}
-# weight: 1
-# aliases: ["/first"]
+title: "Empathy in Zero-Party Data"
+date: 2022-01-11T23:09:30-06:00
+draft: false
 tags: ["first"]
 author: "Craig Fisk"
 # author: ["Me", "You"] # multiple authors
@@ -11,7 +10,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "It's a brand new ballgame when it comes to pricing and positioning, net of a digital transformation of a business."
+description: "Cookies and data lists will soon become even less useful for knowing your customer."
 canonicalURL: "https://priceandposition.com/content/"
 disableHLJS: true # to disable highlightjs
 disableShare: false
@@ -31,4 +30,6 @@ editPost:
     URL: "https://github.com/<path_to_repo>/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
+
+
 ---

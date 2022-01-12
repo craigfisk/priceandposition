@@ -1,8 +1,7 @@
 ---
-title: {{ .Name }}
-date: {{ .Date }}
-# weight: 1
-# aliases: ["/first"]
+title: "Google Analytics 4 and Customer Journeys"
+date: 2022-01-11T23:13:23-06:00
+draft: false
 tags: ["first"]
 author: "Craig Fisk"
 # author: ["Me", "You"] # multiple authors
@@ -11,7 +10,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "It's a brand new ballgame when it comes to pricing and positioning, net of a digital transformation of a business."
+description: "More complex than Universal Analytics; more useful, too."
 canonicalURL: "https://priceandposition.com/content/"
 disableHLJS: true # to disable highlightjs
 disableShare: false

@@ -1,6 +1,6 @@
 ---
-title: {{ .Name }}
-date: {{ .Date }}
+title: "Digital Transformation vis-a-vis Price and Position"
+date: 2022-01-09T14:19:15-06:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["first"]
@@ -11,7 +11,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "It's a brand new ballgame when it comes to pricing and positioning, net of a digital transformation of a business."
+description: "It's a brand new ballgame."
 canonicalURL: "https://priceandposition.com/content/"
 disableHLJS: true # to disable highlightjs
 disableShare: false
