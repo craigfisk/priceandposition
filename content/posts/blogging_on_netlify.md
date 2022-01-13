@@ -32,6 +32,6 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
-Text goes here.
+{% figure Waba-waba! %}
 ![Success!](/image/blogging_on_netlify.png)
-and also here.
+{% endfigure %}

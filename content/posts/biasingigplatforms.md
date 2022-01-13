@@ -1,5 +1,5 @@
 ---
-title: "Bias in Old-School Gig Platforms"
+title: "Bias in Gig Platforms"
 date: 2022-01-11T23:11:32-06:00
 draft: true
 tags: ["bias", "freelancers"]
@@ -10,7 +10,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "Surprise! The two-sided freelancer marketplaces are really one-sided."
+description: "The two-sided freelancer marketplaces are one-sided."
 canonicalURL: "https://priceandposition.com/content/"
 disableHLJS: true # to disable highlightjs
 disableShare: false

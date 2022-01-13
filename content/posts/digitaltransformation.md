@@ -1,5 +1,5 @@
 ---
-title: "Digital Transformation vis-a-vis Price and Position"
+title: "Digital Transformation Changes Pricing and Positioning"
 date: 2022-01-09T14:19:15-06:00
 # weight: 1
 # aliases: ["/first"]

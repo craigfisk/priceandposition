@@ -62,16 +62,22 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
+    enabled: true # needs to be explicitly set
     title: Blog
     subtitle: "Business and tech"
     imageUrl: "https://assets.about.me/background/users/c/r/a/craigfisk_1640390007_976.jpg"
-    imageWidth: 120
-    imageHeight: 120
+    imageWidth: 200
+    imageHeight: 200
     imageTitle: Craig Fisk
     buttons:
-      - name: Posts
+      - name: Home
+        url: /
+      - name: Blog
         url: posts
+      - name: About
+        url: about
+      - name: Categories
+        url: categories
       - name: Tags
         url: tags
 
@@ -79,7 +85,7 @@ params:
   homeInfoParams:
     # Title: "Hi there \U0001F44B"
     Title: "Business and tech"
-    Content: Welcome to my blog
+    Content: Welcome to the blog of Craig Fisk
 
   socialIcons:
     - name: "marmalade"
@@ -133,10 +139,10 @@ menu:
       name: blog
       url: /posts/
       weight: 7
-    - identifier: about
-      name: about
-      url: /about/
-      weight: 8
+    # - identifier: about
+    #   name: about
+    #   url: /about/
+    #   weight: 8
     - identifier: categories
       name: categories
       url: /categories/
