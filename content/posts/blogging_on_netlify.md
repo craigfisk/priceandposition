@@ -1,8 +1,8 @@
 ---
 title: "Blogging on Netlify"
 date: 2022-01-11T23:14:01-06:00
-draft: false
-tags: ["first"]
+draft: true
+tags: ["blogging", "Netlify",]
 author: "Craig Fisk"
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -21,9 +21,9 @@ ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
 cover:
-    image: "<image path/url>" # image path/url
+    image: "/cover/pexels-gabriel-peter-704379.jpg" # image path/url
     alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
+    caption: "Blogging with Hugo for Netlify: fastest website generation; fastest website access." # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
 editPost:
@@ -31,3 +31,7 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
+
+Text goes here.
+![Success!](/image/blogging_on_netlify.png)
+and also here.

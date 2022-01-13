@@ -68,7 +68,7 @@ params:
     imageUrl: "https://assets.about.me/background/users/c/r/a/craigfisk_1640390007_976.jpg"
     imageWidth: 120
     imageHeight: 120
-    imageTitle: my image
+    imageTitle: Craig Fisk
     buttons:
       - name: Posts
         url: posts
@@ -125,6 +125,18 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: home
+      name: home
+      url: /
+      weight: 5
+    - identifier: posts
+      name: blog
+      url: /posts/
+      weight: 7
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 8
     - identifier: categories
       name: categories
       url: /categories/

@@ -3,7 +3,7 @@ title: "Digital Transformation vis-a-vis Price and Position"
 date: 2022-01-09T14:19:15-06:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["first"]
+tags: ["digital transformation", "price", "pricing", "position", "positioning"]
 author: "Craig Fisk"
 # author: ["Me", "You"] # multiple authors
 showToc: true

@@ -2,7 +2,7 @@
 title: "Search Cost and Competition"
 date: 2022-01-11T23:10:20-06:00
 draft: false
-tags: ["first"]
+tags: ["search cost", "competition"]
 author: "Craig Fisk"
 # author: ["Me", "You"] # multiple authors
 showToc: true

@@ -2,7 +2,7 @@
 title: "Firebase Emulators in Agile Development"
 date: 2022-01-11T23:07:30-06:00
 draft: false
-tags: ["first"]
+tags: ["Firebase Emulators", "Google Firebase Emulators", "Emulators"]
 author: "Craig Fisk"
 # author: ["Me", "You"] # multiple authors
 showToc: true

@@ -2,7 +2,7 @@
 title: "Google Analytics 4 and Customer Journeys"
 date: 2022-01-11T23:13:23-06:00
 draft: false
-tags: ["first"]
+tags: ["Google Analytics 4", "GA4", "customer journey"]
 author: "Craig Fisk"
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -23,7 +23,7 @@ ShowPostNavLinks: true
 cover:
     image: "<image path/url>" # image path/url
     alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
+    caption: "Google Analytics 4 has more useful information about specific customer actions, but takes more work to configure." # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
 editPost:

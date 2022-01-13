@@ -1,8 +1,8 @@
 ---
 title: "Bias in Old-School Gig Platforms"
 date: 2022-01-11T23:11:32-06:00
-draft: false
-tags: ["first"]
+draft: true
+tags: ["bias", "freelancers"]
 author: "Craig Fisk"
 # author: ["Me", "You"] # multiple authors
 showToc: true
