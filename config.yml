@@ -62,7 +62,7 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: true # needs to be explicitly set
+    enabled: false # needs to be explicitly set
     title: Blog
     subtitle: "Business and tech"
     imageUrl: "https://assets.about.me/background/users/c/r/a/craigfisk_1640390007_976.jpg"

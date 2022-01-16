@@ -1,5 +1,5 @@
 ---
-title: "Firebase Emulators in Agile Development"
+title: "How to set up Firebase Emulators"
 date: 2022-01-11T23:07:30-06:00
 draft: false
 tags: ["Firebase Emulators", "Google Firebase Emulators", "Emulators"]
@@ -33,3 +33,7 @@ editPost:
 
 
 ---
+
+<!-- pexels-quang-nguyen-vinh-2166711.jpg Photo by Quang Nguyen Vinh from Pexels -->
+
+{{< figure src="/image/pexels-quang-nguyen-vinh-2166711.jpg" caption="Using Firebase Emulators to mirror development on your local system: free, fast." >}}

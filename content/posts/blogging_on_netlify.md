@@ -32,6 +32,10 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
-{% figure Waba-waba! %}
-![Success!](/image/blogging_on_netlify.png)
-{% endfigure %}
+<!-- ![Success!](/image/blogging_on_netlify.png) -->
+
+<!-- {{< figure src="/image/blogging_on_netlify.png" title="Blogging on Netlify" >}} -->
+
+{{< figure src="/image/blogging_on_netlify.png" caption="The excitement about digital transformation is real." >}}
+
+<!-- < figure src="/image/blogging_on_netlify.png" title="Blogging on Netlify" > -->

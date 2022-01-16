@@ -1,5 +1,5 @@
 ---
-title: "Digital Transformation Changes Pricing and Positioning"
+title: "Digital Transformation: Pricing and Positioning?"
 date: 2022-01-09T14:19:15-06:00
 # weight: 1
 # aliases: ["/first"]
@@ -32,3 +32,5 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
+
+{{< figure src="/image/blogging_on_netlify.png" caption="Excited about digital transformation? What about price and position?." >}}

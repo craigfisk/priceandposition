@@ -1,7 +1,7 @@
 ---
 title: "Empathy in Zero-Party Data"
 date: 2022-01-11T23:09:30-06:00
-draft: false
+draft: true
 tags: ["empathy", "zero-party data", "first-party data", "second-party data"]
 author: "Craig Fisk"
 # author: ["Me", "You"] # multiple authors
