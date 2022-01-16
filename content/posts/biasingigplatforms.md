@@ -32,3 +32,6 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 
 ---
+
+{{< figure src="/image/pexels-edgar-daniel-hernandez-cervantes-3628100.jpg" caption="Freelancers are multiculturals who do not want to be pigeon-holed.">}}
+

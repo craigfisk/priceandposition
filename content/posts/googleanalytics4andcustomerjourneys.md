@@ -31,3 +31,5 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
+
+{{< figure src="/image/pexels-andrea-piacquadio-3771836.jpg" caption="Acting on data about your customer journeys is key to marketing." >}}
