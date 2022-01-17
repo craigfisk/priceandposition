@@ -1,0 +1,39 @@
+---
+title: "Minnesota Perspective"
+date: 2022-01-17T23:14:01-06:00
+draft: false
+tags: ["Minneapolis", "San Jose",]
+author: "Craig Fisk"
+# author: ["Me", "You"] # multiple authors
+showToc: true
+TocOpen: false
+hidemeta: false
+comments: false
+description: "Lots of opportunity for taking old and new business digital!"
+canonicalURL: "https://priceandposition.com/content/"
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+hideSummary: false
+searchHidden: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+cover:
+    image: "/cover/pexels-gabriel-peter-704379.jpg" # image path/url
+    alt: "<alt text>" # alt text
+    caption: "Blogging with Hugo for Netlify: fastest website generation; fastest website access." # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: true # only hide on current single page
+editPost:
+    URL: "https://github.com/<path_to_repo>/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+---
+
+This is text that should be white.
+
+{{< figure src="/image/pexels-andrea-piacquadio-3771836.jpg" caption="Acting on data about your customer journeys is key to marketing." >}}
+
+{{< figure src="/image/josh-hild-RtvBe0JCzWU-unsplash.jpg" caption="Minneapolis-St. Paul." >}}
+
