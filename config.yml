@@ -1,6 +1,8 @@
-baseURL: https://priceandposition.com/
+baseURL: "https://priceandposition.com"
+# CF20220117 setting up for autodeploy to Digital Ocean, following
+# https://www.digitalocean.com/community/tutorials/how-to-build-and-deploy-a-hugo-site-to-digitalocean-app-platform
 languageCode: en-us
-title: Price and Position
+title: "Price and Position"
 draft: false
 theme: "PaperMod"
 paginate: 10
