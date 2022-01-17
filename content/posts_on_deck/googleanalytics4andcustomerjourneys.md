@@ -1,13 +1,12 @@
 ---
 title: "Google Analytics 4 and Customer Journeys"
-date: 2022-01-11T23:13:23-06:00
-draft: false
+date: 2022-01-15T23:13:23-06:00
+draft: true
 tags: ["Google Analytics 4", "GA4", "customer journey"]
 author: "Craig Fisk"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
-draft: false
 hidemeta: false
 comments: false
 description: "More complex than Universal Analytics; more useful, too."
@@ -33,3 +32,4 @@ editPost:
 ---
 
 {{< figure src="/image/pexels-andrea-piacquadio-3771836.jpg" caption="Acting on data about your customer journeys is key to marketing." >}}
+

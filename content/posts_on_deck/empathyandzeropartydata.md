@@ -7,7 +7,6 @@ author: "Craig Fisk"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
-draft: false
 hidemeta: false
 comments: false
 description: "Cookies and data lists will soon become even less useful for knowing your customer."

@@ -1,13 +1,12 @@
 ---
 title: "Search Cost and Competition"
 date: 2022-01-11T23:10:20-06:00
-draft: false
+draft: true
 tags: ["search cost", "competition"]
 author: "Craig Fisk"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
-draft: false
 hidemeta: false
 comments: false
 description: "How Does Digital Marketing Impact Search Cost and Competition in 2022?"

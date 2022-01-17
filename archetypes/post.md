@@ -14,7 +14,7 @@ comments: false
 description: "It's a brand new ballgame when it comes to pricing and positioning, net of a digital transformation of a business."
 canonicalURL: "https://priceandposition.com/content/"
 disableHLJS: true # to disable highlightjs
-disableShare: false
+disableShare: truee
 disableHLJS: false
 hideSummary: false
 searchHidden: true

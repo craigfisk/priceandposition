@@ -1,13 +1,12 @@
 ---
 title: "Docker, Kubernetes and Agile"
 date: 2022-01-11T23:12:27-06:00
-draft: false
+draft: true
 tags: ["Docker","Podman", "Kubernetes", "agile"]
 author: "Craig Fisk"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
-draft: false
 hidemeta: false
 comments: false
 description: "Virtualizing software development."

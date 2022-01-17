@@ -7,7 +7,6 @@ author: "Craig Fisk"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
-draft: false
 hidemeta: false
 comments: false
 description: "It doesn't get any faster or easier than this."

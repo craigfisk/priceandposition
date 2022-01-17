@@ -7,7 +7,6 @@ author: "Craig Fisk"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
-draft: false
 hidemeta: false
 comments: false
 description: "Google's Firebase Emulators promise to make development fast and cheap."
