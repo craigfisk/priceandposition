@@ -109,7 +109,7 @@ To see **project** information:
 ```
 To run on local network, like to check out your **app over wifi on a phone**:
 ```javascript
-    // Use to get your network IP: 192.168.x.y
+    // Use *ifconfig* to get your network IP: 192.168.x.y
     http://192.168.x.y:8081/
 ```
 To have correct **permissions** on your "bucket" for your backup, you may need to add your account as **"new principal"** with role of **"Storage Admin."** ERROR: PERMISSION_DENIED: Service account does not have access to Google Cloud Storage file. See https://cloud.google.com/datastore/docs/export-import-entities#permissions for a list of permissions needed. Error details: account does not have storage.buckets.get access to the Google Cloud Storage bucket.
