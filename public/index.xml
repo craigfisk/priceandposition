@@ -1,86 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Price and Position</title>
+    <title>Home on Price and Position</title>
     <link>https://priceandposition.com/</link>
-    <description>Recent content on Price and Position</description>
+    <description>Recent content in Home on Price and Position</description>
     <image>
       <url>https://priceandposition.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://priceandposition.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Jan 2022 23:14:01 -0600</lastBuildDate><atom:link href="https://priceandposition.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Jan 2022 14:19:15 -0600</lastBuildDate><atom:link href="https://priceandposition.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Blogging on Netlify</title>
-      <link>https://priceandposition.com/posts/blogging_on_netlify/</link>
-      <pubDate>Tue, 11 Jan 2022 23:14:01 -0600</pubDate>
-      
-      <guid>https://priceandposition.com/posts/blogging_on_netlify/</guid>
-      <description>It doesn&amp;#39;t get any faster or easier than this.</description>
-    </item>
-    
-    <item>
-      <title>Google Analytics 4 and Customer Journeys</title>
-      <link>https://priceandposition.com/posts/googleanalytics4andcustomerjourneys/</link>
-      <pubDate>Tue, 11 Jan 2022 23:13:23 -0600</pubDate>
-      
-      <guid>https://priceandposition.com/posts/googleanalytics4andcustomerjourneys/</guid>
-      <description>More complex than Universal Analytics; more useful, too.</description>
-    </item>
-    
-    <item>
-      <title>Docker, Kubernetes and Agile</title>
-      <link>https://priceandposition.com/posts/dockerkubernetesandagile/</link>
-      <pubDate>Tue, 11 Jan 2022 23:12:27 -0600</pubDate>
-      
-      <guid>https://priceandposition.com/posts/dockerkubernetesandagile/</guid>
-      <description>Virtualizing software development.</description>
-    </item>
-    
-    <item>
-      <title>Bias in Old-School Gig Platforms</title>
-      <link>https://priceandposition.com/posts/biasandsiloedgigplatforms/</link>
-      <pubDate>Tue, 11 Jan 2022 23:11:32 -0600</pubDate>
-      
-      <guid>https://priceandposition.com/posts/biasandsiloedgigplatforms/</guid>
-      <description>Surprise! The two-sided freelancer marketplaces are really one-sided.</description>
-    </item>
-    
-    <item>
-      <title>Search Cost and Competition</title>
-      <link>https://priceandposition.com/posts/searchcostandcompetition/</link>
-      <pubDate>Tue, 11 Jan 2022 23:10:20 -0600</pubDate>
-      
-      <guid>https://priceandposition.com/posts/searchcostandcompetition/</guid>
-      <description>How Does Digital Marketing Impact Search Cost and Competition in 2022?</description>
-    </item>
-    
-    <item>
-      <title>Empathy in Zero-Party Data</title>
-      <link>https://priceandposition.com/posts/empathyandzeropartydata/</link>
-      <pubDate>Tue, 11 Jan 2022 23:09:30 -0600</pubDate>
-      
-      <guid>https://priceandposition.com/posts/empathyandzeropartydata/</guid>
-      <description>Cookies and data lists will soon become even less useful for knowing your customer.</description>
-    </item>
-    
-    <item>
-      <title>Firebase Emulators in Agile Development</title>
-      <link>https://priceandposition.com/posts/firebaseemulators/</link>
-      <pubDate>Tue, 11 Jan 2022 23:07:30 -0600</pubDate>
-      
-      <guid>https://priceandposition.com/posts/firebaseemulators/</guid>
-      <description>Google&amp;#39;s Firebase Emulators promise to make development fast and cheap.</description>
-    </item>
-    
-    <item>
-      <title>Digital Transformation vis-a-vis Price and Position</title>
+      <title>Digital Transformation: Pricing and Positioning</title>
       <link>https://priceandposition.com/posts/digitaltransformation/</link>
-      <pubDate>Sun, 09 Jan 2022 14:19:15 -0600</pubDate>
+      <pubDate>Sun, 16 Jan 2022 14:19:15 -0600</pubDate>
       
       <guid>https://priceandposition.com/posts/digitaltransformation/</guid>
       <description>It&amp;#39;s a brand new ballgame.</description>
+    </item>
+    
+    <item>
+      <title>Bias in Gig Platforms</title>
+      <link>https://priceandposition.com/posts/biasingigplatforms/</link>
+      <pubDate>Fri, 14 Jan 2022 23:11:32 -0600</pubDate>
+      
+      <guid>https://priceandposition.com/posts/biasingigplatforms/</guid>
+      <description>The two-sided freelancer marketplaces are one-sided.</description>
     </item>
     
     
