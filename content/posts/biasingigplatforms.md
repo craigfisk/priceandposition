@@ -34,18 +34,18 @@ editPost:
 
 {{< figure src="/image/pexels-edgar-daniel-hernandez-cervantes-3628100.jpg" caption="Freelancers are multiculturals who do not want to be pigeon-holed.">}}
 
-At [Marmalade AI](https://marmalade.ai), a pre-seed startup, our basic idea was to create a *virtual network*. Why? Well, our watch word is to be "accurate, automatic, and appropriate." Notice that does not include whether you actually know the person or not. That's the old model. In the *virtual* approach, it's not who you know anymore. 
+At [Marmalade AI](https://marmalade.ai), a pre-seed startup, our basic idea was to create a ***virtual network***. Why? Well, our watch word is to be "accurate, automatic, and appropriate." Notice **that does not include whether you actually know the person or not.** That's the old model. In the *virtual* approach, it's not who you know anymore. 
 
-When we set out to model tech freelancers (initially, just a few areas of tech freelancers), one thing that quickly became evident was that a person's work and education background were sort of irrelevant. People describe interests and expertise in their profiles, because that is what they will be hired for. 
+When we set out to model tech freelancers (initially, just a few areas of tech freelancers), one thing that quickly became evident was that a person's work and education background were sort of irrelevant. People describe interests and expertise in their **profiles**, because that is what they will be hired for. 
 
-At the same time, another thing that became evident in looking at tech freelancer profiles was that this is a young, multicultural demographic. Yes, there are older freelancers, too. The tendency, however, is for a 30-something group in areas like digital marketing, machine learning, and UX design. These are **specialists**; not **generalists**. A freelancer can do in a fraction of the time what a generalist could do.
+At the same time, another thing that became evident in looking at tech freelancer profiles was that this is a **young, multicultural demographic**. Yes, there are older freelancers, too. The tendency, however, is for a 30-something group in areas like digital marketing, machine learning, and UX design. These are **specialists**; not **generalists**. A freelancer can do in a fraction of the time what a generalist could do.
 
-This group of younger freelancers is very attuned to avoiding bias. Self-worth is based on expertise. They not only would prefer to not be *corporate*. They actually are living in the "post-bro" era. By "bro" era we mean  when people hired people they knew into their companies. Not so with freelancers.
+This group of younger freelancers is very **attuned to avoiding bias**. Their sense of self **values expertise**. They not only would prefer to not be *corporate*. They actually are living in the "post-bro" era. By "bro" era we mean  when people hired people they knew into their companies. Not so with freelancers.
 
-So what's the situation with two-sided marketplaces? They are really *one-sided*. That being the side with the money. A platform for corporate buyers puts the freelancer in a silo. Some even test or otherwise vet freelancers. This is what the corporate buyers are paying the platform to do. What's in it for the freelancer? The reward for qualifying through the platform's filter is to be commoditized and paid less.
+So what's the situation with **two-sided freelancing marketplaces**? They are really *one-sided*. That being the side with the money. A platform for corporate buyers puts the freelancer in a **silo**. Some even test or otherwise vet freelancers. This is what the corporate buyers are paying the platform to do. What's in it for the freelancer? The reward for qualifying through the platform's filter is to be **commoditized** and paid less.
 
-Meanwhile, on the company-employee side of things, the data show that the younger the developer, the shorter the time in a company -- down to 1.5 years for people in their twenties. [Younger engineers > less time in a company](https://hackerlife.co/blog/san-francisco-large-corporation-employee-tenure). 
-It looks like there is less and less distance between younger employees and freelancers.
+Meanwhile, on the company-employee side of things, the **data show** that the younger the developer, the shorter the time in a company -- down to 1.5 years for people in their twenties. [Younger engineers > less time in a company](https://hackerlife.co/blog/san-francisco-large-corporation-employee-tenure). 
+It looks like there is less and less distance between younger **employees** and **freelancers**.
 
 
 <!-- Ronald Coase's The Theory of the Firm -->

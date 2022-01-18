@@ -37,11 +37,11 @@ editPost:
 
 {{< figure src="/image/pexels-quang-nguyen-vinh-2166711.jpg" caption="Using Firebase Emulators to mirror development on your local system: free, fast." >}}
 
-Firebase Emulators sound like a great idea. Run an extract of your cloud environment on localhost, Avoid expensive accidents in the cloud. Be fast. The reality, hoever, is that there are a lot of little problems to deal with.
+**Firebase Emulators sound like a great idea**. Run an extract of your cloud environment on localhost, Avoid expensive accidents in the cloud. Be fast. The reality, hoever, is that there are a lot of little **problems** to deal with.
 
-Let's assume you already have *gcloud* set up, and have a Firebase project named *dev-test* with authentication, a Firestore database, Storage, and security rules for both of the latter. 
+Let's assume you already have ***gcloud*** set up, and have a **Firebase project** named *dev-test* with authentication, a Firestore database, Storage, and security rules for both of the latter. 
 
-1) Install the Emulators
+1) **Install** the Emulators
 ```javascript
     cd <project_directory>
     gcloud auth login
@@ -53,7 +53,7 @@ Let's assume you already have *gcloud* set up, and have a Firebase project named
     // Use the defaults. If you need to start over; delete .firebaserc and firebase.json 
 ```
 
-2) Backup and download the Firebase project ("dev-test" for this example) 
+2) **Backup and download** the Firebase project ("dev-test" for this example) 
 ```javascript
     cd ~/Downloads    
     gcloud firestore export gs://<your_project>-dev-test.appspot.com/dev-test
@@ -67,7 +67,7 @@ Let's assume you already have *gcloud* set up, and have a Firebase project named
     // Delete the old directory, if there is one, before downloading
 ```
 
-3) Modify app to use Emulators if on localhost
+3) **Modify app** to use Emulators **for *localhost***
 ```javascript
     if (location.hostname === "localhost") {
         auth.useEmulator("http://localhost:9100");
@@ -79,7 +79,7 @@ Let's assume you already have *gcloud* set up, and have a Firebase project named
         "url": "http://localhost:8081",
 ```
 
-4) Start the Emulators:
+4) **Start** the Emulators using your **download**:
 ```javascript
     firebase emulators:start 
     --import /<your_path>/Downloads/dev-test 
@@ -88,7 +88,7 @@ Let's assume you already have *gcloud* set up, and have a Firebase project named
     // Argh! Be sure to use absolute path above to the download.
 ```
 
-5) Launch the project in VS Code:
+5) **Launch and run** the project in VS Code:
 ```javascript
     npm run serve   // ctrl-click to open app on http://localhost:8081
 ```
@@ -97,24 +97,24 @@ Wow, that was easy! ;)
 
 Notes:
 
-In case of a "port already in use" error: 
+In case of a **"port already in use"** error: 
 ```javascript
     lsof -i:<port> // like 8080
     // returns PID; if multiple PIDs, pick the first
     sudo kill PID
 ```
-To see project information:
+To see **project** information:
 ```javascript
     gcloud config list     
 ```
-To run on local network, like to check out your app on a phone over wifi:
+To run on local network, like to check out your **app over wifi on a phone**:
 ```javascript
     // Use to get your network IP: 192.168.x.y
     http://192.168.x.y:8081/
 ```
-To have correct permissions on your backup "bucket," may need to add your account as "new principal" with role of "Storage Admin." ERROR: PERMISSION_DENIED: Service account does not have access to Google Cloud Storage file. See https://cloud.google.com/datastore/docs/export-import-entities#permissions for a list of permissions needed. Error details: account does not have storage.buckets.get access to the Google Cloud Storage bucket.
+To have correct **permissions** on your "bucket" for your backup, you may need to add your account as **"new principal"** with role of **"Storage Admin."** ERROR: PERMISSION_DENIED: Service account does not have access to Google Cloud Storage file. See https://cloud.google.com/datastore/docs/export-import-entities#permissions for a list of permissions needed. Error details: account does not have storage.buckets.get access to the Google Cloud Storage bucket.
 
 
-When creating a bucket, no security settings are defined, so come back to this and define some security settings.
+When creating a bucket, **by default no security** settings are defined, so come back to this and define some security settings.
 
-For more information, see Jorge Vergara (JS Mobile Dev), ["How to set up Firebase Emulator for local development."](https://jsmobiledev.com/article/firebase-emulator/)
+For more information, see **Jorge Vergara** (JS Mobile Dev), ["How to set up Firebase Emulator for local development."](https://jsmobiledev.com/article/firebase-emulator/) 
