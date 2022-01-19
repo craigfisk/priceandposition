@@ -35,7 +35,7 @@ editPost:
 
 {{< figure src="/image/blogging_on_netlify.png" caption="Excited about **digital transformation**? What about **price** and **position**?" >}}
 
-Is there anything more basic in business than **price** and **position**? *Digital transformation* **changes** how your customer's perception of *how you price* (as well as your price). It also changes your market positioning. 
+Is there anything more basic in business than **price** and **position**? *Digital transformation* **changes**  your customer's perception of *how you price* (as well as your price). It also changes your market positioning. 
 
 A company may well launch into digital transformation in order to deal with supply chain problems and to reduce costs. But it would be best to **start with value** by evaluating price and position, because that is always going to be at the core of any digital transformation.
 
