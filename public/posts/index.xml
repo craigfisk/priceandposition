@@ -22,11 +22,20 @@
     
     <item>
       <title>Bias in Gig Platforms</title>
-      <link>https://priceandposition.com/posts/biasingigplatforms/</link>
+      <link>https://priceandposition.com/posts/biasinplatforms/</link>
       <pubDate>Fri, 14 Jan 2022 23:11:32 -0600</pubDate>
       
-      <guid>https://priceandposition.com/posts/biasingigplatforms/</guid>
+      <guid>https://priceandposition.com/posts/biasinplatforms/</guid>
       <description>The two-sided freelancer marketplaces are one-sided.</description>
+    </item>
+    
+    <item>
+      <title>How to set up Firebase Emulators</title>
+      <link>https://priceandposition.com/posts/firebaseemulators/</link>
+      <pubDate>Tue, 11 Jan 2022 23:07:30 -0600</pubDate>
+      
+      <guid>https://priceandposition.com/posts/firebaseemulators/</guid>
+      <description>Google&amp;#39;s Firebase Emulators promise to make development fast and cheap.</description>
     </item>
     
   </channel>
