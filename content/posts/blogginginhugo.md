@@ -1,5 +1,5 @@
 ---
-title: Blogging In Hugo
+title: Blogging with Victor Hugo
 date: 2022-01-21T18:29:07-06:00
 # weight: 1
 # aliases: ["/first"]
@@ -35,7 +35,9 @@ editPost:
 
 <!-- Photo by <a href="https://unsplash.com/@justinlim?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Justin Lim</a> on <a href="https://unsplash.com/s/photos/cartoon-of-caveman?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
 
-{{< figure src="/image/justin-lim-tloFnD-7EpI-unsplash.jpg" caption="Blogging in PaperMod on the Hugo framework is simple, fast, and perfect for the web (and used here)" >}}
+<!-- {{< figure src="/image/justin-lim-tloFnD-7EpI-unsplash.jpg" caption="Blogging in PaperMod on the Hugo framework, named for 19th-century French author Victor Hugo, is simple, fast, and perfect for the web (and used here)" >}} -->
+
+{{< figure src="/image/Cosette-sweeping-les-miserables-emile-bayard-1862_400.jpg" caption="Cosette in 'Les Misérables' by 19th-century French author Victor Hugo, namesake of the Hugo framework. Hugo is simple, fast, and perfect for the web (and used here)" >}}
 
 Why?
 
@@ -54,7 +56,7 @@ If not running the base software (or it's out-of-date), go to https://go.dev and
     hugo --version
 ```
 
-**Assumptions**: you have experience using _git_, working with repos, and have accounts on Github and Netlify (could also be Github pages or Digital Ocean, but I don't cover those). Also, the examples assume Linux (or [Darwin](<https://en.wikipedia.org/wiki/Darwin_(operating_system)>) on Mac, [WSL](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux) or [git bash](https://www.stanleyulili.com/git/how-to-install-git-bash-on-windows/) on Windows).
+**Assumptions**: you have experience using _git_, working with repos, and have accounts on Github and Netlify (or Github pages or Digital Ocean, but I don't cover those). Also, the examples assume Linux (or Linux environments like [Darwin](<https://en.wikipedia.org/wiki/Darwin_(operating_system)>) on the Mac, or Windows Subsystem for Linux [WSL](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux) or [git bash](https://www.stanleyulili.com/git/how-to-install-git-bash-on-windows/) on Windows).
 
 Create a **project directory** using Hugo and add the **_PaperMod_** theme as a **_submodule_**. This enables _PaperMod_ to stay up-to-date **independent** of your repo.
 
@@ -68,7 +70,9 @@ Create a **project directory** using Hugo and add the **_PaperMod_** theme as a 
 
 ## Configuration
 
-If you really want to save time, **duplicate** the styling and layout of [https://priceandposition.com](https://priceandposition.com). Just copy and modify as appropriate, the configuration file below (_config.yml_ instead of .toml, see on installation above). Everything should be pretty self-evident. For a complete description, see writeup by Aditya Telange, the author of _PaperMod_: ["Installation"](https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/).
+If you really want to save time, you might want to just **duplicate** the styling and layout of [https://priceandposition.com](https://priceandposition.com). Just copy, and modify as appropriate, the configuration file below (_config.yml_ instead of .toml, see on installation above). Everything should be pretty self-evident.
+
+PaperMod can do a lot that is not included here in the interest of simplicity. For a complete description, see the writeup by Aditya Telange, the author of _PaperMod_: ["Installation"](https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/).
 
 ```bash
 baseURL: "https://priceandposition.com"
@@ -135,11 +139,18 @@ menu:
       ...
 ```
 
+It's configured. Let's run it locally:
+
+```bash
+    hugo server -D      // Includes any posts marked "draft: true"
+    localhost:1313      // Where to see your site; ctrl-click on this to open in browser.
+```
+
 ## Mental Model, part 1:
 
 To change _anything_, create a **replacement file** in **your directory** structure with the same name and content as the corresponding original file in the **PaperMod theme subdirectory**, and then change (or add, or subtract) the part to modify. For example,
 
-Here are the **relevant parts** of the resulting structure in [_tree_](https://www.geeksforgeeks.org/tree-command-unixlinux/)
+Here are the **relevant parts**, showing the output from [_tree_](https://www.geeksforgeeks.org/tree-command-unixlinux/).
 
 ```bash
    tree -d  // just the directories
@@ -167,29 +178,35 @@ Here are the **relevant parts** of the resulting structure in [_tree_](https://w
 
 ```
 
-## Mental Model, part 1:
+## Mental Model, part 2:
 
-How do you add some specific features? There are three ways. Using pre-defined **shortcodes**, as in the TOC (Table of Contents) example below. A shortcode is a small template to implement a particular functionality using your data or environment. You can ["Use Hugo's Built-in Shortcodes"(https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes) You can also ["Create Your Own Shortcodes"](https://gohugo.io/templates/shortcode-templates/). Examples of built-in shortcodes:
+Want to add a feature? There are three main ways.
 
-### Photo with caption
+**1)** Using **shortcodes**, which are pre-defined for elements such as Figure (photo with caption), YouTube, or TOC (Table of Contents). A shortcode is a small template to add some function. ["Use Hugo's Built-in Shortcodes"](https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes). Or ["Create Your Own Shortcodes"](https://gohugo.io/templates/shortcode-templates/).
 
-```markdown
-    {{< figure src="/image/my_photo.jpg" caption="This is the caption for my photo" >}}
-    // Relative to the root of the project, this is /static/image/my_photo.jpg
-```
+**2)** Using **partials** to define what goes into an element, such as a footer or header.
 
-### YouTube video embedded
-
-````markdown
-    {{< youtube id="w7Ft2ymGmfc" title="A New Hugo Site in Under Two Minutes" >}}
-    <!-- "w7Ft2ymGmfc" links to the video: https://www.youtube.com/watch?v=w7Ft2ymGmfc, "A New Hugo Site in Under Two Minutes"
-
-```
+**3)** Using **archetypes**, which have their own directory and define sort of the "master" version of something. For example, archetypes/post.md defines what goes into a new blog post by default.
 
 TBD:
 
 - TOC _shortcode_ added to \_index.md ??
 - Images to in static/image.
-- Hugo uses the [Blackfriday](https://github.com/russross/blackfriday) flavor of markdown.
+- PaperMod currently uses ? [Hugo? Goldmark?] the [Blackfriday](https://github.com/russross/blackfriday) flavor of markdown.
+- Disqus (comments) or cactus.chat and Drift (bots)
+- [Wowchemy widgets](https://wowchemy.com/docs/getting-started/get-started/)
+
+## Mental Model, part 3: A Push Automatically Updates Website
+
+Assumes you have github and Netlify accounts.
+
+Login to Netlify
+
+Using Netlify (see Flavio Copes setup).
+
+```bash
+    git add .
+    git commit -m 'Update adding bletch'
+    git push [origin main]
+    // In maybe 10 seconds, the website on Netlify is updated
 ```
-````
