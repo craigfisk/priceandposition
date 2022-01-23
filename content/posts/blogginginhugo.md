@@ -11,7 +11,7 @@ TocOpen: false
 draft: true
 hidemeta: false
 comments: false
-description: "Blogging in PaperMod on Hugo is simple, fast, and perfect for the web (and used here)."
+description: "Blogging in PaperMod on Hugo is simple, fast, and up-to-date (and used here)."
 canonicalURL: "https://priceandposition.com/content/"
 disableHLJS: true # to disable highlightjs
 disableShare: true
@@ -37,7 +37,7 @@ editPost:
 
 <!-- {{< figure src="/image/justin-lim-tloFnD-7EpI-unsplash.jpg" caption="Blogging in PaperMod on the Hugo framework, named for 19th-century French author Victor Hugo, is simple, fast, and perfect for the web (and used here)" >}} -->
 
-{{< figure src="/image/Cosette-sweeping-les-miserables-emile-bayard-1862_400.jpg" caption="Cosette in 'Les Misérables' by 19th-century French author Victor Hugo, namesake of the Hugo framework. Hugo is simple, fast, and perfect for the web (and used here)" >}}
+{{< figure src="/image/Cosette-sweeping-les-miserables-emile-bayard-1862_400.jpg" caption="Cosette in 'Les Misérables' by French author Victor Hugo, namesake of the Hugo framework. Hugo is simple, fast, and up-to-date (and used here)" >}}
 
 Why?
 
@@ -70,26 +70,18 @@ Create a **project directory** using Hugo and add the **_PaperMod_** theme as a 
 
 ## Configuration
 
-If you really want to save time, you might want to just **duplicate** the styling and layout of [https://priceandposition.com](https://priceandposition.com). Just copy, and modify as appropriate, the configuration file below (_config.yml_ instead of .toml, see on installation above). Everything should be pretty self-evident.
+If you really want to save time, you might want to just **duplicate** the styling and layout of [https://priceandposition.com](https://priceandposition.com). Copy and adapt the configuration file below (_config.yml_ instead of .toml, see on installation above). Everything should be pretty self-evident.
 
 PaperMod can do a lot that is not included here in the interest of simplicity. For a complete description, see the writeup by Aditya Telange, the author of _PaperMod_: ["Installation"](https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/).
 
-```bash
+````bash
 baseURL: "https://priceandposition.com"
 languageCode: en-us
 title: "Price and Position"
 draft: false  # If true, publishes on git push; if false, "hugo server -D" to see it.
 theme: "PaperMod"
 paginate: 10 # was 5 by default
-enableRobotsTXT: true
-buildDrafts: false
-buildFuture: false
-buildExpired: false
-# googleAnalytics: UA-123-45
-
-minify:
-  disableXML: true
-  minifyOutput: true
+...
 
 params:
   env: production # Needed to enable google analytics, opengraph, twitter-cards, etc.
@@ -97,19 +89,7 @@ params:
   description: "Business and tech"
   keywords: [Blog, Portfolio, PaperMod]
   author: Craig Fisk   # if multiple authors, use a list of strings:
-  images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
-  defaultTheme: auto #creates the "night mode"/"day mode" switch at top.
-  disableThemeToggle: false
-  ShowReadingTime: true
-  ShowShareButtons: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
   ...
-
-  homeInfoParams:
-    Title: "Business and tech"
-    Content: Blog of [Craig Fisk](https://linkedin.com/in/craigfisk), Minneapolis-St. Paul
 
   socialIcons:
     - name: "marmalade"
@@ -137,16 +117,19 @@ menu:
       url: /tags/
       weight: 20
       ...
-```
+
 
 It's configured. Let's run it locally:
 
 ```bash
-    hugo server -D      // Includes any posts marked "draft: true"
-    localhost:1313      // Where to see your site; ctrl-click on this to open in browser.
-```
+    hugo server -D      // Includes any posts marked "draft: true".
+    localhost:1313      // Your site; ctrl-click to open in browser.
 
-## Mental Model, part 1:
+````
+
+This just covers basics of the **mental model** for how to work with PaperMod on Hugo, and how to set it up for automatic updates on Netlify, given a push to your repo.
+
+## Changes
 
 To change _anything_, create a **replacement file** in **your directory** structure with the same name and content as the corresponding original file in the **PaperMod theme subdirectory**, and then change (or add, or subtract) the part to modify. For example,
 
@@ -178,9 +161,9 @@ Here are the **relevant parts**, showing the output from [_tree_](https://www.ge
 
 ```
 
-## Mental Model, part 2:
+## Adding features
 
-Want to add a feature? There are three main ways.
+Want to add a feature? Here are some ways.
 
 **1)** Using **shortcodes**, which are pre-defined for elements such as Figure (photo with caption), YouTube, or TOC (Table of Contents). A shortcode is a small template to add some function. ["Use Hugo's Built-in Shortcodes"](https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes). Or ["Create Your Own Shortcodes"](https://gohugo.io/templates/shortcode-templates/).
 
@@ -196,15 +179,18 @@ TBD:
 - Disqus (comments) or cactus.chat and Drift (bots)
 - [Wowchemy widgets](https://wowchemy.com/docs/getting-started/get-started/)
 
-## Mental Model, part 3: A Push Automatically Updates Website
+## Pushing to Netlify
 
 Assumes you have github and Netlify accounts.
 
 Login to Netlify
 
+Configure with "build" as the name of your directory.
+
 Using Netlify (see Flavio Copes setup).
 
 ```bash
+    hugo        // build for site
     git add .
     git commit -m 'Update adding bletch'
     git push [origin main]
