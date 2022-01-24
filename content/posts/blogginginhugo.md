@@ -70,9 +70,9 @@ Create a **project directory** using Hugo and add the **_PaperMod_** theme as a 
 
 ## Configuration
 
-If you really want to save time, you might want to just **duplicate** the styling and layout of [https://priceandposition.com](https://priceandposition.com). Copy and adapt the configuration file below (_config.yml_ instead of .toml, see on installation above). Everything should be pretty self-evident.
+If you really want to save time, **copy** the styling and layout of [https://priceandposition.com](https://priceandposition.com). You can adapt the configuration file below (_config.yml_ instead of .toml, see on installation above). Everything should be pretty self-evident.
 
-PaperMod can do a lot that is not included here in the interest of simplicity. For a complete description, see the writeup by Aditya Telange, the author of _PaperMod_: ["Installation"](https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/).
+PaperMod can do a lot not included here in the interest of simplicity. For a complete description, see the writeup by Aditya Telange, the author of _PaperMod_: ["Installation"](https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/).
 
 ````bash
 baseURL: "https://priceandposition.com"
@@ -127,11 +127,11 @@ It's configured. Let's run it locally:
 
 ````
 
-This just covers basics of the **mental model** for how to work with PaperMod on Hugo, and how to set it up for automatic updates on Netlify, given a push to your repo.
+The goal here is just to provide a basic **mental model** for how to work with PaperMod and Hugo, and to set up automatic updates on Netlify, so that a push to Github updates the site.
 
 ## Changes
 
-To change _anything_, create a **replacement file** in **your directory** structure with the same name and content as the corresponding original file in the **PaperMod theme subdirectory**, and then change (or add, or subtract) the part to modify. For example,
+To change _anything_, create a **replacement file** in **your directory tree** with the same name and content as the corresponding original file in the **PaperMod theme subdirectory tree**, and then change (or add, or subtract) the part to modify.
 
 Here are the **relevant parts**, showing the output from [_tree_](https://www.geeksforgeeks.org/tree-command-unixlinux/).
 
@@ -169,7 +169,7 @@ Want to add a feature? Here are some ways.
 
 **2)** Using **partials** to define what goes into an element, such as a footer or header.
 
-**3)** Using **archetypes**, which have their own directory and define sort of the "master" version of something. For example, archetypes/post.md defines what goes into a new blog post by default.
+**3)** Using **archetypes**, which have their own directory and define the "master" version of something. For example, **archetypes/post.md** defines what goes into a new blog post by default.
 
 Examples:
 
@@ -198,7 +198,7 @@ Examples:
 {{- end -}}
 ```
 
-This inserts the TOC _shortcode_ (in double squiggle brackets) in a new section as
+The TOC _shortcode_ (in double squiggle brackets) has been inserted in a new section as
 
 ```html
 <section class="entry-content">
@@ -206,10 +206,13 @@ This inserts the TOC _shortcode_ (in double squiggle brackets) in a new section 
 </section>
 ```
 
-- To add images (jpg or png files of photos from Unsplash and Pexels), put them in static/image, and reference them in an HTML5-like _figure_. Example:
+- To add images (like .jpg or .png files of photos from [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/)), put them in static/image, and reference them in an HTML5-like _figure_. This can have attributes like a caption, title, alt, width, etc.
 
-- Disqus (comments) or cactus.chat and Drift (bots)
-- [Wowchemy widgets](https://wowchemy.com/docs/getting-started/get-started/)
+- [Disqus](https://disqus.com/) (comments) or [cactus.chat](https://cactus.chat/) and [Drift](https://drift.om) (bots > "conversational marketing")
+
+- [Wowchemy widgets](https://wowchemy.com/)
+
+- In the homepage icons, I created and added a Marmalade icon to link to my startup at [https://marmalade.ai](https://marmalade.ai). You could do something similar.
 
 ## Netlify
 
@@ -221,13 +224,13 @@ Assuming you have Github and Netlify accounts, you want to set it up with your s
 
 {{< figure src="/image/Screenshot at 2022-01-23 15-38-35.png" caption="*Custom Domains* when complete will look like this for your domain name." >}}
 
-You **prove ownership** of the domain by editing information on your provider to have the domain's **nameservers point to Netlify**. Go to your domain registrar ([Namecheap](https://www.namecheap.com/), [GoDaddy](https://www.godaddy.com/), [Google Domains](https://domains.google.com/)), then to the domain you are using (acquire it first, obviously, if necessary), and set its **nameservers** to **point to Netlify**.
+You **prove ownership** of the domain by accessing your account on your provider to have the domain's **nameservers point to Netlify**. Go to your domain registrar ([Namecheap](https://www.namecheap.com/), [GoDaddy](https://www.godaddy.com/), [Google Domains](https://domains.google.com/)), then to the domain you are using (acquire it first, obviously, if necessary), and set its **nameservers** to **point to Netlify**.
 
 For "priceandposition.com" on Namecheap, that looks like
 
 {{< figure src="/image/Screenshot at 2022-01-23 16-00-57.png" caption="Don't forget to click the green *checkmark* at top right when finished to save!" >}}
 
-Wait. Might take **24-48 hours**. There's a button at the bottom to check whether Netlify has seen confirmation (the effect of the nameserver change on your domain host) that you own the domain. You will then have
+Wait. Might take **24-48 hours** for the result to flow through to Netlify. There's a button at the bottom to check whether Netlify has seen confirmation (the effect of the nameserver change on your domain host) that you own the domain. You will then have
 
 ```bash
   priceandposition.netlify.com
@@ -246,9 +249,9 @@ While you are waiting for confirmation (might be quick; might be overnight), you
 **3)** Link to your Github account.
 
 To get to the next step, hit the "back" button and then the _Site overview_ button, as shown in the menu below:
-{{< figure src="/image/Screenshot at 2022-01-23 18-13-57.png" caption="Click tne *back* button and then the *Site overview* button on the top level menu." >}}
+{{< figure src="/image/Screenshot at 2022-01-23 18-13-57.png" caption="Click tne *back* button and then the *Site overview* button on the top level menu and then *Build & deploy*." >}}
 
-Click link to Github and to the specific project.
+Click link to _Site overview_ > _Build & deploy_.
 
 **4)** Build settings.
 
@@ -260,13 +263,13 @@ From the "Site overview" menu, click "Build & deploy." Notice that at the top ri
 
 Yay! That's what we want.
 
-There are several things to configure on this page.
+There are several things to **configure** on this page.
 
-a) First off, at the top as shown here, set url for your repo on Github.
+a) First off, at the top as shown here, set your **repo url** on Github.
 
 {{< figure src="/image/Screenshot at 2022-01-23 18-32-47.png" caption="Set your *repository*, *build command*, and *publish directory*." >}}
 
-b) The _build command_ should be **hugo** and the _publish directory_ should be _public_.
+b) The _build command_ should be **hugo** and the _publish directory_ should be **public**.
 
 c) Below, in the _Branches_ section, you probably want to set it to **main** and to deploy only the production branch.
 
@@ -287,4 +290,4 @@ d) Further down, under _Environment Variable_ set key/value pairs as
     // In maybe 10 seconds, the website on Netlify is updated
 ```
 
-You'll still see typos and things to improve, but updates are so much faster and effortless. The _hugo_ commands are so fast it almost seems like nothing happened.
+You'll still see typos and things to improve, but updates are so much **faster and effortless**. The _hugo_ commands are so fast it seems like nothing happened.
