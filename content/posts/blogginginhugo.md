@@ -8,7 +8,7 @@ author: "Craig Fisk"
 # author: ["Me", "You"] # multiple authors
 showToc: false
 TocOpen: false
-draft: true
+draft: false
 hidemeta: false
 comments: false
 description: "Blogging in PaperMod on Hugo is simple, fast, and up-to-date (and used here)."

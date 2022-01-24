@@ -8,7 +8,7 @@ author: "Craig Fisk"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
-draft: true
+draft: false
 hidemeta: false
 comments: false
 description: "In outbound marketing, you look for the customer; in inbound (digital marketing), you enable the customer to find you."
