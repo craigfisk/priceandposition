@@ -171,28 +171,120 @@ Want to add a feature? Here are some ways.
 
 **3)** Using **archetypes**, which have their own directory and define sort of the "master" version of something. For example, archetypes/post.md defines what goes into a new blog post by default.
 
-TBD:
+Examples:
 
-- TOC _shortcode_ added to \_index.md ??
-- Images to in static/image.
-- PaperMod currently uses ? [Hugo? Goldmark?] the [Blackfriday](https://github.com/russross/blackfriday) flavor of markdown.
+- To add a [TOC (Table of Contents)](https://gohugo.io/content-management/toc/) to the homepage in https://priceandposition created by PaperMod and my configuration
+
+```bash
+  layouts/partials/home_info.html
+```
+
+```html
+{{- with $.Site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+  <header class="entry-header">
+    <h1>{{ .Title | markdownify }}</h1>
+  </header>
+  <section class="entry-content">
+    <p>{{ .Content | markdownify }}</p>
+  </section>
+  <section class="entry-content">
+    <p>{{ .TableOfContents }}</p>
+  </section>
+  <footer class="entry-footer">
+    {{ partial "social_icons.html" $.Site.Params.socialIcons }}
+  </footer>
+</article>
+{{- end -}}
+```
+
+This inserts the TOC _shortcode_ (in double squiggle brackets) in a new section as
+
+```html
+<section class="entry-content">
+  <p>{{ .TableOfContents }}</p>
+</section>
+```
+
+- To add images (jpg or png files of photos from Unsplash and Pexels), put them in static/image, and reference them in an HTML5-like _figure_. Example:
+
 - Disqus (comments) or cactus.chat and Drift (bots)
 - [Wowchemy widgets](https://wowchemy.com/docs/getting-started/get-started/)
 
-## Pushing to Netlify
+## Netlify
 
-Assumes you have github and Netlify accounts.
+Assuming you have Github and Netlify accounts, you want to set it up with your site hosted on Netlify so that anytime you push to Github your site automatically updates:
 
-Login to Netlify
+**1)** **Login to Netlify** and "Add a New Project." If you already have a project (the case here), click to go to it. You'll see "Site settings" and "Domain settings".
 
-Configure with "build" as the name of your directory.
+**2)** Click **"Domain Settings"**. When finished, it will look like:
 
-Using Netlify (see Flavio Copes setup).
+{{< figure src="/image/Screenshot at 2022-01-23 15-38-35.png" caption="*Custom Domains* when complete will look like this for your domain name." >}}
+
+You **prove ownership** of the domain by editing information on your provider to have the domain's **nameservers point to Netlify**. Go to your domain registrar ([Namecheap](https://www.namecheap.com/), [GoDaddy](https://www.godaddy.com/), [Google Domains](https://domains.google.com/)), then to the domain you are using (acquire it first, obviously, if necessary), and set its **nameservers** to **point to Netlify**.
+
+For "priceandposition.com" on Namecheap, that looks like
+
+{{< figure src="/image/Screenshot at 2022-01-23 16-00-57.png" caption="Don't forget to click the green *checkmark* at top right when finished to save!" >}}
+
+Wait. Might take **24-48 hours**. There's a button at the bottom to check whether Netlify has seen confirmation (the effect of the nameserver change on your domain host) that you own the domain. You will then have
 
 ```bash
-    hugo        // build for site
-    git add .
-    git commit -m 'Update adding bletch'
+  priceandposition.netlify.com
+```
+
+and can edit the other two listings to refer to your **actual domain.**
+
+```bash
+  priceandposition.com
+```
+
+By the way, there's no need to worry about a **[Letsencrypt](https://letsencrypt.com)** certificate. Getting **https** is part of the deal. Netlify takes care of that. So you can use [https://priceandposition.com](https://priceandposition.com).
+
+While you are waiting for confirmation (might be quick; might be overnight), you may want to read Victor Hugo's "Les misérables" - [translation](https://www.gutenberg.org/files/135/135-h/135-h.htm)]/[original](https://www.gutenberg.org/files/17489/17489-h/17489-h.htm).
+
+**3)** Link to your Github account.
+
+To get to the next step, hit the "back" button and then the _Site overview_ button, as shown in the menu below:
+{{< figure src="/image/Screenshot at 2022-01-23 18-13-57.png" caption="Click tne *back* button and then the *Site overview* button on the top level menu." >}}
+
+Click link to Github and to the specific project.
+
+**4)** Build settings.
+
+From the "Site overview" menu, click "Build & deploy." Notice that at the top right it says
+
+```bash
+  Settings for Continuous Deployment from a Git repository
+```
+
+Yay! That's what we want.
+
+There are several things to configure on this page.
+
+a) First off, at the top as shown here, set url for your repo on Github.
+
+{{< figure src="/image/Screenshot at 2022-01-23 18-32-47.png" caption="Set your *repository*, *build command*, and *publish directory*." >}}
+
+b) The _build command_ should be **hugo** and the _publish directory_ should be _public_.
+
+c) Below, in the _Branches_ section, you probably want to set it to **main** and to deploy only the production branch.
+
+d) Further down, under _Environment Variable_ set key/value pairs as
+
+```bash
+    HUGO_ENV      production
+    HUGO_VERSION  0.91.2  // whatever "hugo --version" returns on localhost
+```
+
+**5)** Try it out from your development system!
+
+```bash
+    hugo        // build the site
+    git add .   // assuming you are already running a git project
+    git commit -m 'Update for deployment'
     git push [origin main]
     // In maybe 10 seconds, the website on Netlify is updated
 ```
+
+You'll still see typos and things to improve, but updates are so much faster and effortless. The _hugo_ commands are so fast it almost seems like nothing happened.
