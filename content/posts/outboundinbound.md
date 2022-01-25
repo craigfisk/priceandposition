@@ -53,7 +53,7 @@ The reality is, you can't really have outbound or inbound in isolation. They go 
 
 Marketing is all about **messaging**.
 
-Take the **webinar** is a case in point. It can be a way to understand better how customers talk about a product category, so that the appropriate words can be featured in messages in your website SEO or SEM, and make it easier for customers to find you.
+Take the **webinar** as a case in point. It can be a way to understand better how customers talk about a product category, so that the appropriate words can be featured in messages in your website SEO or SEM, and make it easier for customers to find you.
 
 But how do you find the right participants for a webinar in the first place? Maybe it's by determining the **_persona_** of ideal particpants, or by slicing and dicing **databases** like Reference Solutions or AtoZDatabases to find who to invite based on **SIC/NAICS** industry codes, number of employees, growth stage of the company, or geography.
 
