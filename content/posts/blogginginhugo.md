@@ -52,8 +52,8 @@ Three reasons to use PaperMod and Hugo:
 If not running the base software (or it's out-of-date), go to https://go.dev and https://gohugo.io to **install** or **update**. To confirm what is running:
 
 ```bash
-    go --version
-    hugo --version
+    go version
+    hugo version
 ```
 
 **Assumptions**: you have experience using _git_, working with repos, and have accounts on Github and Netlify (or Github pages or Digital Ocean, but I don't cover those). Also, the examples assume Linux (or Linux environments like [Darwin](<https://en.wikipedia.org/wiki/Darwin_(operating_system)>) on the Mac, or Windows Subsystem for Linux [WSL](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux) or [git bash](https://www.stanleyulili.com/git/how-to-install-git-bash-on-windows/) on Windows).
@@ -277,7 +277,7 @@ d) Further down, under _Environment Variable_ set key/value pairs as
 
 ```bash
     HUGO_ENV      production
-    HUGO_VERSION  0.91.2  // whatever "hugo --version" returns on localhost
+    HUGO_VERSION  0.91.2  // whatever "hugo version" returns on localhost
 ```
 
 **5)** Try it out from your development system!
