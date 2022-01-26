@@ -278,7 +278,7 @@ d) Further down, under _Environment Variable_ set key/value pairs as
 
 ```bash
     HUGO_ENV      production
-    HUGO_VERSION  0.91.2  // whatever "hugo version" returns on localhost
+    HUGO_VERSION  0.92.0  // whatever "hugo version" returns on localhost
 ```
 
 **5)** Try it out from your development system!
