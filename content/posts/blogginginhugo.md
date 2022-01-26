@@ -65,7 +65,8 @@ Create a **project directory** using Hugo and add the **_PaperMod_** theme as a 
    // PaperMod theme uses .yml instead of .toml to write config files
    cd my_blog
    git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod --depth=1
-   git submodule update --init --recursive # needed when you reclone your repo (submodules may not get cloned automatically)
+   # Instead of the above, if cloning your repo
+   git submodule update --init --recursive 
 ```
 
 ## Configuration
