@@ -49,7 +49,13 @@ Three reasons to use PaperMod and Hugo:
 
 ## Installation (and assumptions)
 
-If not running the base software (or it's out-of-date), go to https://go.dev and https://gohugo.io to **install** or **update**. To confirm what is running:
+If not running the base software (or it's out-of-date), go to https://go.dev and https://gohugo.io to **install** or **update**. For Hugo, download and install whichever makes sense for your environment, if Mac or Linux or Windows. For me on Ubuntu Linux 18.04, I downloaded and installed as
+
+```bash
+  sudo dpkg -i hugo_extended_0.92.0_Linux-64bit.deb
+```
+
+To confirm what is running:
 
 ```bash
     go version
