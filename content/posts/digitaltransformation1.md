@@ -1,5 +1,5 @@
 ---
-title: "Digital Transformation: Pricing and Positioning"
+title: "Digital Transformation, 1: Pricing and Positioning"
 date: 2022-01-16T14:19:15-06:00
 # weight: 1
 # aliases: ["/first"]
