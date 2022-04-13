@@ -21,12 +21,12 @@ searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
-cover:
-    image: "<image path/url>" # image path/url
-    alt: "Outbound marketing pitched the customer; in inbound (digital marketing) the customer finds you." # alt text
-    caption: "Outbound marketing pitched the customer; in inbound (\"digital marketing\") the customer finds you." # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
+# cover:
+#     image: "<image path/url>" # image path/url
+#     alt: "Outbound marketing pitched the customer; in inbound (digital marketing) the customer finds you." # alt text
+#     caption: "Outbound marketing pitched the customer; in inbound (\"digital marketing\") the customer finds you." # display caption under cover
+#     relative: false # when using page bundles set this to true
+#     hidden: true # only hide on current single page
 editPost:
     URL: "https://github.com/<path_to_repo>/content"
     Text: "Suggest Changes" # edit text

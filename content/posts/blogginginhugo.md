@@ -21,12 +21,12 @@ searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
-cover:
-    image: "<image path/url>" # image path/url
-    alt: "Making snakes is really easy in modelling clay." # alt text
-    caption: "Making snakes is really easy in modelling clay." # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
+# cover:
+#     image: "<image path/url>" # image path/url
+#     alt: "Making snakes is really easy in modelling clay." # alt text
+#     caption: "Making snakes is really easy in modelling clay." # display caption under cover
+#     relative: false # when using page bundles set this to true
+#     hidden: true # only hide on current single page
 editPost:
     URL: "https://github.com/<path_to_repo>/content"
     Text: "Suggest Changes" # edit text
