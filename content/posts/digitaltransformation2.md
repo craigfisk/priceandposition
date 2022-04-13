@@ -11,7 +11,7 @@ TocOpen: false
 draft: true
 hidemeta: false
 comments: false
-description: "It's a brand new ballgame."
+description: "Everything changes ."
 canonicalURL: "https://priceandposition.com/content/"
 disableHLJS: true # to disable highlightjs
 disableShare: false
