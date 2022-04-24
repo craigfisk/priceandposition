@@ -25,7 +25,7 @@ To deploy to Netlify:
 - on Netlify: "New site from Github" and select the repo 
 - Netlify should automatically identify as a Hugo repo for the "build" command.
 - Click "deploy site" start the deploy
-- a random ".netlify.com" subdomain is attahed to the site
+- a random ".netlify.com" subdomain is attached to the site
 - use this to see the site live.
 
 Now local changes are deployed automatically:
