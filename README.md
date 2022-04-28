@@ -20,6 +20,8 @@ then per
 git submodule update --init --recursive
 - Also, for PaperMod, config.toml must be converted to config.yml.  See Aditya Telange's documentation.
 
+Netlify settings:
+- PRODUCTION, Hugo version 0.97.0
 To deploy to Netlify:
 - create a project repo on Github
 - on Netlify: "New site from Github" and select the repo 
