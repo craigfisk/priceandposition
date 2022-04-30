@@ -1,6 +1,6 @@
 ---
 title: Outbound and Inbound (Digital) Marketing
-date: 2022-01-23T11:28:17-06:00
+date: 2022-04-28
 # weight: 1
 # aliases: ["/first"]
 tags: ["marketing", "inbound", "digital", "outbound", "digital marketing"]
@@ -11,7 +11,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "In outbound marketing, you look for the customer; in inbound (digital marketing), you enable the customer to find you."
+description: "In outbound marketing, you look for the right customers; in inbound (digital marketing), you enable the right customers to find you."
 canonicalURL: "https://priceandposition.com/content/"
 disableHLJS: true # to disable highlightjs
 disableShare: true
@@ -35,7 +35,7 @@ editPost:
 
 {{< figure src="/image/Screenshot at 2022-01-23 11-09-08.png" caption="Outbound marketing is communicating to would-be customers; inbound (digital) marketing is enabling them to connect with you." >}}
 
-In **outbound** marketing, you look for the customer; in **inbound** (_digital_ marketing), you enable the customer to find you.
+In **outbound** marketing, you look for the right customers; in **inbound** (_digital_ marketing), you enable the right customers to find you.
 
 What are the characteristics of each, and when are they a good way to run a business?
 
