@@ -10,7 +10,52 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Jan 2022 11:28:17 -0600</lastBuildDate><atom:link href="https://priceandposition.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Apr 2022 18:29:07 -0600</lastBuildDate><atom:link href="https://priceandposition.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>blog</title>
+      <link>https://priceandposition.com/tags/blog/</link>
+      <pubDate>Fri, 29 Apr 2022 18:29:07 -0600</pubDate>
+      
+      <guid>https://priceandposition.com/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blogging</title>
+      <link>https://priceandposition.com/tags/blogging/</link>
+      <pubDate>Fri, 29 Apr 2022 18:29:07 -0600</pubDate>
+      
+      <guid>https://priceandposition.com/tags/blogging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>https://priceandposition.com/tags/golang/</link>
+      <pubDate>Fri, 29 Apr 2022 18:29:07 -0600</pubDate>
+      
+      <guid>https://priceandposition.com/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://priceandposition.com/tags/hugo/</link>
+      <pubDate>Fri, 29 Apr 2022 18:29:07 -0600</pubDate>
+      
+      <guid>https://priceandposition.com/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PaperMod</title>
+      <link>https://priceandposition.com/tags/papermod/</link>
+      <pubDate>Fri, 29 Apr 2022 18:29:07 -0600</pubDate>
+      
+      <guid>https://priceandposition.com/tags/papermod/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>digital</title>
       <link>https://priceandposition.com/tags/digital/</link>
@@ -53,51 +98,6 @@
       <pubDate>Sun, 23 Jan 2022 11:28:17 -0600</pubDate>
       
       <guid>https://priceandposition.com/tags/outbound/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blog</title>
-      <link>https://priceandposition.com/tags/blog/</link>
-      <pubDate>Fri, 21 Jan 2022 18:29:07 -0600</pubDate>
-      
-      <guid>https://priceandposition.com/tags/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blogging</title>
-      <link>https://priceandposition.com/tags/blogging/</link>
-      <pubDate>Fri, 21 Jan 2022 18:29:07 -0600</pubDate>
-      
-      <guid>https://priceandposition.com/tags/blogging/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>golang</title>
-      <link>https://priceandposition.com/tags/golang/</link>
-      <pubDate>Fri, 21 Jan 2022 18:29:07 -0600</pubDate>
-      
-      <guid>https://priceandposition.com/tags/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hugo</title>
-      <link>https://priceandposition.com/tags/hugo/</link>
-      <pubDate>Fri, 21 Jan 2022 18:29:07 -0600</pubDate>
-      
-      <guid>https://priceandposition.com/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PaperMod</title>
-      <link>https://priceandposition.com/tags/papermod/</link>
-      <pubDate>Fri, 21 Jan 2022 18:29:07 -0600</pubDate>
-      
-      <guid>https://priceandposition.com/tags/papermod/</guid>
       <description></description>
     </item>
     

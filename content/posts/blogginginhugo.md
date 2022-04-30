@@ -1,6 +1,6 @@
 ---
-title: Blogging with Victor Hugo
-date: 2022-01-21T18:29:07-06:00
+title: Blogging with Hugo
+date: 2022-04-29T18:29:07-06:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["blog", "blogging", "Hugo", "golang", "PaperMod"]
@@ -37,40 +37,40 @@ editPost:
 
 <!-- {{< figure src="/image/justin-lim-tloFnD-7EpI-unsplash.jpg" caption="Blogging in PaperMod on the Hugo framework, named for 19th-century French author Victor Hugo, is simple, fast, and perfect for the web (and used here)" >}} -->
 
-{{< figure src="/image/Cosette-sweeping-les-miserables-emile-bayard-1862_400.jpg" caption="Cosette in 'Les Misérables' by French author Victor Hugo, namesake of the Hugo framework. Hugo is simple, fast, and up-to-date (and used here)" >}}
+{{< figure src="/image/Cosette-sweeping-les-miserables-emile-bayard-1862_400.jpg" caption="Cosette in 'Les Misérables' by Victor Hugo, namesake of the Hugo framework. Hugo is simple, fast, and up-to-date (and used here)" >}}
 
 Why?
 
 Three reasons to use PaperMod and Hugo:
 
-1. It makes producing a blog about as **simple** as it gets. You use [markup](https://en.wikipedia.org/wiki/Markdown) (called _markdown_, naturally) designed for simplicity and web output. What is _markup_? It's like writing \*\*bold\*\* to get **bold**. Check out a [cheatsheet](https://www.markdownguide.org/cheat-sheet/) to get an idea.
-2. Edits result in almost **instant** changes locally, which can be **automatic** on your website, too, if hosting your blog on services like **Netlify** (like the current site), Github pages, or Digital Ocean (details below). It's fast, because it runs on Hugo, a very fast framework on the very fast Go (golang) programming language, used in many cloud and web infrastructure applications.
-3. Finally, how could anything named for **[Victor Hugo](https://en.wikipedia.org/wiki/Victor_Hugo)** not be great? (["Les misérables](https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables)," ["The Hunchback of Notre-Dame"](https://en.wikipedia.org/wiki/The_Hunchback_of_Notre-Dame), _c'est formidable!_)
+1. It makes producing a blog about as **simple** as it gets. You use [markup](https://en.wikipedia.org/wiki/Markdown) called _markdown_, designed for simplicity and web output. What is _markup_? It's writing \*\*bold\*\* to get **bold**. See [cheatsheet](https://www.markdownguide.org/cheat-sheet/).
+2. Edits result in **instant** changes locally. If using Github and hosting on Netlify, deploying updates is **automatic** (like the current site). The blog is fast. Hugo is a very fast framework on the very fast Go (golang) programming language, used in many cloud and web infrastructure applications.
+3. Finally, how could anything named for **[Victor Hugo](https://en.wikipedia.org/wiki/Victor_Hugo)** not be great? (["Les misérables](https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables)," ["The Hunchback of Notre-Dame"](https://en.wikipedia.org/wiki/The_Hunchback_of_Notre-Dame).
 
 ## Installation (and assumptions)
 
 If not running the base software (or it's out-of-date), go to https://go.dev and https://gohugo.io to **install** or **update**. For Hugo, download and install whichever makes sense for your environment, if Mac or Linux or Windows. For me on Ubuntu Linux 18.04, I downloaded and installed as
 
 ```bash
-  sudo dpkg -i hugo_extended_0.92.0_Linux-64bit.deb
+  sudo dpkg -i hugo_extended_0.97.0_Linux-64bit.deb
 ```
 
 To confirm what is running:
 
 ```bash
-    go version
-    hugo version
+    go version    // 1.18.1, the latest
+    hugo version  // 0.97.0, almost the latest
 ```
 
-**Assumptions**: you have experience using _git_, working with repos, and have accounts on Github and Netlify (or Github pages or Digital Ocean, but I don't cover those). Also, the examples assume Linux (or Linux environments like [Darwin](<https://en.wikipedia.org/wiki/Darwin_(operating_system)>) on the Mac, or Windows Subsystem for Linux [WSL](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux) or [git bash](https://www.stanleyulili.com/git/how-to-install-git-bash-on-windows/) on Windows).
+**Assumptions**: you have experience using _git_, working with repos, and have accounts on Github and Netlify. Also, the examples assume Linux (or Linux environments like [Darwin](<https://en.wikipedia.org/wiki/Darwin_(operating_system)>) on the Mac, or Windows Subsystem for Linux [WSL](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux) or [git bash](https://www.stanleyulili.com/git/how-to-install-git-bash-on-windows/) on Windows).
 
 Create a **project directory** using Hugo and add the **_PaperMod_** theme as a **_submodule_**. This enables _PaperMod_ to stay up-to-date **independent** of your repo.
 
 ```bash
-   hugo new site <name of site> -f yml
+   hugo new site <name of site> -f yml  // yml instead of toml for configuration
    // PaperMod theme uses .yml instead of .toml to write config files
    cd my_blog
-   git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod --depth=1
+   git submodule add depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
    # Instead of the above, if cloning your repo
    git submodule update --init --recursive 
 ```
@@ -79,7 +79,7 @@ Create a **project directory** using Hugo and add the **_PaperMod_** theme as a 
 
 If you really want to save time, **copy** the styling and layout of [https://priceandposition.com](https://priceandposition.com). You can adapt the configuration file below (_config.yml_ instead of .toml, see on installation above). Everything should be pretty self-evident.
 
-PaperMod can do a lot not included here in the interest of simplicity. For a complete description, see the writeup by Aditya Telange, the author of _PaperMod_: ["Installation"](https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/).
+PaperMod can do a lot not included here. For a complete description, see the write up by Aditya Telange, creator of _PaperMod_: ["Installation"](https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/).
 
 ````bash
 baseURL: "https://priceandposition.com"
@@ -170,7 +170,7 @@ Here are the **relevant parts**, showing the output from [_tree_](https://www.ge
 
 ## Adding features
 
-Want to add a feature? Here are some ways.
+Here are some ways.
 
 **1)** Using **shortcodes**, which are pre-defined for elements such as Figure (photo with caption), YouTube, or TOC (Table of Contents). A shortcode is a small template to add some function. ["Use Hugo's Built-in Shortcodes"](https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes). Or ["Create Your Own Shortcodes"](https://gohugo.io/templates/shortcode-templates/).
 
@@ -249,7 +249,7 @@ and can edit the other two listings to refer to your **actual domain.**
   priceandposition.com
 ```
 
-By the way, there's no need to worry about a **[Letsencrypt](https://letsencrypt.com)** certificate. Getting **https** is part of the deal. Netlify takes care of that. So you can use [https://priceandposition.com](https://priceandposition.com).
+In ancient times (10 years ago), it was unbelievably tedious to work with certificates. Now, getting **https** with **[Letsencrypt](https://letsencrypt.com)** certificates is part of the deal. Netlify takes care of it. So you can use [https://priceandposition.com](https://priceandposition.com).
 
 While you are waiting for confirmation (might be quick; might be overnight), you may want to read Victor Hugo's "Les misérables" - [translation](https://www.gutenberg.org/files/135/135-h/135-h.htm)]/[original](https://www.gutenberg.org/files/17489/17489-h/17489-h.htm).
 
@@ -272,19 +272,19 @@ Yay! That's what we want.
 
 There are several things to **configure** on this page.
 
-a) First off, at the top as shown here, set your **repo url** on Github.
+a) At the top as shown here, set your **repo url** on Github.
 
 {{< figure src="/image/Screenshot at 2022-01-23 18-32-47.png" caption="Set your *repository*, *build command*, and *publish directory*." >}}
 
 b) The _build command_ should be **hugo** and the _publish directory_ should be **public**.
 
-c) Below, in the _Branches_ section, you probably want to set it to **main** and to deploy only the production branch.
+c) Below, in the _Branches_ section, set it to **main** and to deploy only the **production** branch.
 
 d) Further down, under _Environment Variable_ set key/value pairs as
 
 ```bash
     HUGO_ENV      production
-    HUGO_VERSION  0.92.0  // whatever "hugo version" returns on localhost
+    HUGO_VERSION  0.97.0  // or whatever "hugo version" returns on localhost
 ```
 
 **5)** Try it out from your development system!

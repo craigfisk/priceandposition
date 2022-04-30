@@ -2,13 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://priceandposition.com/tags/blog/</loc>
+    <lastmod>2022-04-29T18:29:07-06:00</lastmod>
+  </url><url>
+    <loc>https://priceandposition.com/tags/blogging/</loc>
+    <lastmod>2022-04-29T18:29:07-06:00</lastmod>
+  </url><url>
+    <loc>https://priceandposition.com/posts/blogginginhugo/</loc>
+    <lastmod>2022-04-29T18:29:07-06:00</lastmod>
+  </url><url>
+    <loc>https://priceandposition.com/tags/golang/</loc>
+    <lastmod>2022-04-29T18:29:07-06:00</lastmod>
+  </url><url>
+    <loc>https://priceandposition.com/</loc>
+    <lastmod>2022-04-29T18:29:07-06:00</lastmod>
+  </url><url>
+    <loc>https://priceandposition.com/tags/hugo/</loc>
+    <lastmod>2022-04-29T18:29:07-06:00</lastmod>
+  </url><url>
+    <loc>https://priceandposition.com/tags/papermod/</loc>
+    <lastmod>2022-04-29T18:29:07-06:00</lastmod>
+  </url><url>
+    <loc>https://priceandposition.com/posts/</loc>
+    <lastmod>2022-04-29T18:29:07-06:00</lastmod>
+  </url><url>
+    <loc>https://priceandposition.com/tags/</loc>
+    <lastmod>2022-04-29T18:29:07-06:00</lastmod>
+  </url><url>
     <loc>https://priceandposition.com/tags/digital/</loc>
     <lastmod>2022-01-23T11:28:17-06:00</lastmod>
   </url><url>
     <loc>https://priceandposition.com/tags/digital-marketing/</loc>
-    <lastmod>2022-01-23T11:28:17-06:00</lastmod>
-  </url><url>
-    <loc>https://priceandposition.com/</loc>
     <lastmod>2022-01-23T11:28:17-06:00</lastmod>
   </url><url>
     <loc>https://priceandposition.com/tags/inbound/</loc>
@@ -22,30 +46,6 @@
   </url><url>
     <loc>https://priceandposition.com/posts/outboundinbound/</loc>
     <lastmod>2022-01-23T11:28:17-06:00</lastmod>
-  </url><url>
-    <loc>https://priceandposition.com/posts/</loc>
-    <lastmod>2022-01-23T11:28:17-06:00</lastmod>
-  </url><url>
-    <loc>https://priceandposition.com/tags/</loc>
-    <lastmod>2022-01-23T11:28:17-06:00</lastmod>
-  </url><url>
-    <loc>https://priceandposition.com/tags/blog/</loc>
-    <lastmod>2022-01-21T18:29:07-06:00</lastmod>
-  </url><url>
-    <loc>https://priceandposition.com/tags/blogging/</loc>
-    <lastmod>2022-01-21T18:29:07-06:00</lastmod>
-  </url><url>
-    <loc>https://priceandposition.com/posts/blogginginhugo/</loc>
-    <lastmod>2022-01-21T18:29:07-06:00</lastmod>
-  </url><url>
-    <loc>https://priceandposition.com/tags/golang/</loc>
-    <lastmod>2022-01-21T18:29:07-06:00</lastmod>
-  </url><url>
-    <loc>https://priceandposition.com/tags/hugo/</loc>
-    <lastmod>2022-01-21T18:29:07-06:00</lastmod>
-  </url><url>
-    <loc>https://priceandposition.com/tags/papermod/</loc>
-    <lastmod>2022-01-21T18:29:07-06:00</lastmod>
   </url><url>
     <loc>https://priceandposition.com/tags/digital-transformation/</loc>
     <lastmod>2022-01-16T14:19:15-06:00</lastmod>
