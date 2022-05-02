@@ -87,7 +87,7 @@ params:
   homeInfoParams:
     # Title: "Hi there \U0001F44B"
     Title: "Business and tech"
-    Content: Blog of [Craig Fisk](https://linkedin.com/in/craigfisk), Minneapolis-St. Paul
+    Content: Blog of [Craig Fisk](https://linkedin.com/in/craigfisk)
 
   socialIcons:
     - name: "marmalade"
