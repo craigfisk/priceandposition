@@ -37,7 +37,7 @@ editPost:
 
 <!-- {{< figure src="/image/justin-lim-tloFnD-7EpI-unsplash.jpg" caption="Blogging in PaperMod on the Hugo framework, named for 19th-century French author Victor Hugo, is simple, fast, and perfect for the web (and used here)" >}} -->
 
-{{< figure src="/image/Cosette-sweeping-les-miserables-emile-bayard-1862_400.jpg" caption="Cosette in 'Les Misérables' by Victor Hugo, namesake of the Hugo framework. Hugo is simple, fast, and up-to-date (and used here)" >}}
+{{< figure src="/image/Cosette-sweeping-les-miserables-emile-bayard-1862_400.jpg" caption="Cosette in 'Les Misérables' by Victor Hugo. The Hugo framework in Go is simple, fast, and up-to-date (and used here)" >}}
 
 Why?
 
