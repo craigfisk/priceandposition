@@ -10,7 +10,115 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Dec 2022 23:07:30 -0600</lastBuildDate><atom:link href="https://priceandposition.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 May 2023 18:29:07 -0600</lastBuildDate><atom:link href="https://priceandposition.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>blog</title>
+      <link>https://priceandposition.com/tags/blog/</link>
+      <pubDate>Mon, 29 May 2023 18:29:07 -0600</pubDate>
+      
+      <guid>https://priceandposition.com/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blogging</title>
+      <link>https://priceandposition.com/tags/blogging/</link>
+      <pubDate>Mon, 29 May 2023 18:29:07 -0600</pubDate>
+      
+      <guid>https://priceandposition.com/tags/blogging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>https://priceandposition.com/tags/golang/</link>
+      <pubDate>Mon, 29 May 2023 18:29:07 -0600</pubDate>
+      
+      <guid>https://priceandposition.com/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://priceandposition.com/tags/hugo/</link>
+      <pubDate>Mon, 29 May 2023 18:29:07 -0600</pubDate>
+      
+      <guid>https://priceandposition.com/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PaperMod</title>
+      <link>https://priceandposition.com/tags/papermod/</link>
+      <pubDate>Mon, 29 May 2023 18:29:07 -0600</pubDate>
+      
+      <guid>https://priceandposition.com/tags/papermod/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>digital transformation</title>
+      <link>https://priceandposition.com/tags/digital-transformation/</link>
+      <pubDate>Thu, 16 Mar 2023 14:19:15 -0600</pubDate>
+      
+      <guid>https://priceandposition.com/tags/digital-transformation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>position</title>
+      <link>https://priceandposition.com/tags/position/</link>
+      <pubDate>Thu, 16 Mar 2023 14:19:15 -0600</pubDate>
+      
+      <guid>https://priceandposition.com/tags/position/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>positioning</title>
+      <link>https://priceandposition.com/tags/positioning/</link>
+      <pubDate>Thu, 16 Mar 2023 14:19:15 -0600</pubDate>
+      
+      <guid>https://priceandposition.com/tags/positioning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>price</title>
+      <link>https://priceandposition.com/tags/price/</link>
+      <pubDate>Thu, 16 Mar 2023 14:19:15 -0600</pubDate>
+      
+      <guid>https://priceandposition.com/tags/price/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pricing</title>
+      <link>https://priceandposition.com/tags/pricing/</link>
+      <pubDate>Thu, 16 Mar 2023 14:19:15 -0600</pubDate>
+      
+      <guid>https://priceandposition.com/tags/pricing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bias</title>
+      <link>https://priceandposition.com/tags/bias/</link>
+      <pubDate>Sat, 14 Jan 2023 23:11:32 -0600</pubDate>
+      
+      <guid>https://priceandposition.com/tags/bias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>freelancers</title>
+      <link>https://priceandposition.com/tags/freelancers/</link>
+      <pubDate>Sat, 14 Jan 2023 23:11:32 -0600</pubDate>
+      
+      <guid>https://priceandposition.com/tags/freelancers/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Emulators</title>
       <link>https://priceandposition.com/tags/emulators/</link>
@@ -35,51 +143,6 @@
       <pubDate>Sun, 11 Dec 2022 23:07:30 -0600</pubDate>
       
       <guid>https://priceandposition.com/tags/google-firebase-emulators/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blog</title>
-      <link>https://priceandposition.com/tags/blog/</link>
-      <pubDate>Fri, 29 Apr 2022 18:29:07 -0600</pubDate>
-      
-      <guid>https://priceandposition.com/tags/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blogging</title>
-      <link>https://priceandposition.com/tags/blogging/</link>
-      <pubDate>Fri, 29 Apr 2022 18:29:07 -0600</pubDate>
-      
-      <guid>https://priceandposition.com/tags/blogging/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>golang</title>
-      <link>https://priceandposition.com/tags/golang/</link>
-      <pubDate>Fri, 29 Apr 2022 18:29:07 -0600</pubDate>
-      
-      <guid>https://priceandposition.com/tags/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hugo</title>
-      <link>https://priceandposition.com/tags/hugo/</link>
-      <pubDate>Fri, 29 Apr 2022 18:29:07 -0600</pubDate>
-      
-      <guid>https://priceandposition.com/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PaperMod</title>
-      <link>https://priceandposition.com/tags/papermod/</link>
-      <pubDate>Fri, 29 Apr 2022 18:29:07 -0600</pubDate>
-      
-      <guid>https://priceandposition.com/tags/papermod/</guid>
       <description></description>
     </item>
     
@@ -125,69 +188,6 @@
       <pubDate>Thu, 28 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>https://priceandposition.com/tags/outbound/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>digital transformation</title>
-      <link>https://priceandposition.com/tags/digital-transformation/</link>
-      <pubDate>Sun, 16 Jan 2022 14:19:15 -0600</pubDate>
-      
-      <guid>https://priceandposition.com/tags/digital-transformation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>position</title>
-      <link>https://priceandposition.com/tags/position/</link>
-      <pubDate>Sun, 16 Jan 2022 14:19:15 -0600</pubDate>
-      
-      <guid>https://priceandposition.com/tags/position/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>positioning</title>
-      <link>https://priceandposition.com/tags/positioning/</link>
-      <pubDate>Sun, 16 Jan 2022 14:19:15 -0600</pubDate>
-      
-      <guid>https://priceandposition.com/tags/positioning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>price</title>
-      <link>https://priceandposition.com/tags/price/</link>
-      <pubDate>Sun, 16 Jan 2022 14:19:15 -0600</pubDate>
-      
-      <guid>https://priceandposition.com/tags/price/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pricing</title>
-      <link>https://priceandposition.com/tags/pricing/</link>
-      <pubDate>Sun, 16 Jan 2022 14:19:15 -0600</pubDate>
-      
-      <guid>https://priceandposition.com/tags/pricing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>bias</title>
-      <link>https://priceandposition.com/tags/bias/</link>
-      <pubDate>Fri, 14 Jan 2022 23:11:32 -0600</pubDate>
-      
-      <guid>https://priceandposition.com/tags/bias/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>freelancers</title>
-      <link>https://priceandposition.com/tags/freelancers/</link>
-      <pubDate>Fri, 14 Jan 2022 23:11:32 -0600</pubDate>
-      
-      <guid>https://priceandposition.com/tags/freelancers/</guid>
       <description></description>
     </item>
     
