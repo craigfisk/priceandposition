@@ -10,7 +10,34 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Apr 2022 18:29:07 -0600</lastBuildDate><atom:link href="https://priceandposition.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Dec 2022 23:07:30 -0600</lastBuildDate><atom:link href="https://priceandposition.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Emulators</title>
+      <link>https://priceandposition.com/tags/emulators/</link>
+      <pubDate>Sun, 11 Dec 2022 23:07:30 -0600</pubDate>
+      
+      <guid>https://priceandposition.com/tags/emulators/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Firebase Emulators</title>
+      <link>https://priceandposition.com/tags/firebase-emulators/</link>
+      <pubDate>Sun, 11 Dec 2022 23:07:30 -0600</pubDate>
+      
+      <guid>https://priceandposition.com/tags/firebase-emulators/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google Firebase Emulators</title>
+      <link>https://priceandposition.com/tags/google-firebase-emulators/</link>
+      <pubDate>Sun, 11 Dec 2022 23:07:30 -0600</pubDate>
+      
+      <guid>https://priceandposition.com/tags/google-firebase-emulators/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>blog</title>
       <link>https://priceandposition.com/tags/blog/</link>
@@ -161,33 +188,6 @@
       <pubDate>Fri, 14 Jan 2022 23:11:32 -0600</pubDate>
       
       <guid>https://priceandposition.com/tags/freelancers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Emulators</title>
-      <link>https://priceandposition.com/tags/emulators/</link>
-      <pubDate>Tue, 11 Jan 2022 23:07:30 -0600</pubDate>
-      
-      <guid>https://priceandposition.com/tags/emulators/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Firebase Emulators</title>
-      <link>https://priceandposition.com/tags/firebase-emulators/</link>
-      <pubDate>Tue, 11 Jan 2022 23:07:30 -0600</pubDate>
-      
-      <guid>https://priceandposition.com/tags/firebase-emulators/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Google Firebase Emulators</title>
-      <link>https://priceandposition.com/tags/google-firebase-emulators/</link>
-      <pubDate>Tue, 11 Jan 2022 23:07:30 -0600</pubDate>
-      
-      <guid>https://priceandposition.com/tags/google-firebase-emulators/</guid>
       <description></description>
     </item>
     

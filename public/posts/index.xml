@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Apr 2022 18:29:07 -0600</lastBuildDate><atom:link href="https://priceandposition.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Dec 2022 23:07:30 -0600</lastBuildDate><atom:link href="https://priceandposition.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to set up Firebase Emulators</title>
+      <link>https://priceandposition.com/posts/firebaseemulators/</link>
+      <pubDate>Sun, 11 Dec 2022 23:07:30 -0600</pubDate>
+      
+      <guid>https://priceandposition.com/posts/firebaseemulators/</guid>
+      <description>Google&amp;#39;s Firebase Emulators promise to make development fast and cheap.</description>
+    </item>
+    
     <item>
       <title>Blogging with Hugo</title>
       <link>https://priceandposition.com/posts/blogginginhugo/</link>
@@ -45,15 +54,6 @@
       
       <guid>https://priceandposition.com/posts/biasinplatforms/</guid>
       <description>The two-sided freelancer marketplaces are one-sided.</description>
-    </item>
-    
-    <item>
-      <title>How to set up Firebase Emulators</title>
-      <link>https://priceandposition.com/posts/firebaseemulators/</link>
-      <pubDate>Tue, 11 Jan 2022 23:07:30 -0600</pubDate>
-      
-      <guid>https://priceandposition.com/posts/firebaseemulators/</guid>
-      <description>Google&amp;#39;s Firebase Emulators promise to make development fast and cheap.</description>
     </item>
     
   </channel>
