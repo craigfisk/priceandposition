@@ -1,6 +1,6 @@
 ---
 title: "How to set up Firebase Emulators"
-date: 2022-01-11T23:07:30-06:00
+date: 2022-12-11T23:07:30-06:00
 draft: false
 tags: ["Firebase Emulators", "Google Firebase Emulators", "Emulators"]
 author: "Craig Fisk"
