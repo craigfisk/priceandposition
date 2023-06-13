@@ -1,6 +1,6 @@
 ---
 title: Blogging with Hugo
-date: 2022-04-29T18:29:07-06:00
+date: 2023-05-29T18:29:07-06:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["blog", "blogging", "Hugo", "golang", "PaperMod"]

@@ -1,6 +1,6 @@
 ---
 title: "Bias in Gig Platforms"
-date: 2022-01-14T23:11:32-06:00
+date: 2023-01-14T23:11:32-06:00
 draft: false
 tags: ["bias", "freelancers"]
 author: "Craig Fisk"

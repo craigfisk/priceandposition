@@ -1,6 +1,6 @@
 ---
 title: "Digital Transformation, 2: Pricing and Positioning"
-date: 2022-03-27
+date: 2023-03-27
 # weight: 1
 # aliases: ["/first"]
 tags: ["digital transformation", "price", "pricing", "position", "positioning"]
