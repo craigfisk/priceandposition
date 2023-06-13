@@ -1,6 +1,6 @@
 ---
 title: Outbound and Inbound (Digital) Marketing
-date: 2022-04-28
+date: 2023-04-28
 # weight: 1
 # aliases: ["/first"]
 tags: ["marketing", "inbound", "digital", "outbound", "digital marketing"]
